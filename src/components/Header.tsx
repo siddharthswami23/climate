@@ -17,7 +17,7 @@ const Header = () => {
             className="h-14"
           />
         </Link>
-        <div className="">
+        <div className="flex gap-4 items-center">
           <ThemeToggle />
         </div>
       </div>

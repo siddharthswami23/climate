@@ -57,7 +57,7 @@ const WeatherForecast = ({ data }: WeatherForecastProps) => {
           return (
             <div
               key={day.date}
-              className="grid grid-cols-1 lg:grid-cols-3 items-center gap-4 rounded-lg border p-4"
+              className="my-3 grid grid-cols-1 lg:grid-cols-3 items-center gap-4 rounded-lg border p-4"
             >
               <div>
                 <p className="font-medium ">

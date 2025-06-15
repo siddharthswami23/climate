@@ -12,7 +12,6 @@ import {
   useWeatherQuery,
 } from "@/hooks/use-weather";
 import { AlertTriangle, MapPin, RefreshCcw, RefreshCw } from "lucide-react";
-import { useState } from "react";
 
 const WeatherDashBoard = () => {
   const {

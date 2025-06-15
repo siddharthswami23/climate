@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
-  const { theme, setTheme } = useTheme();
-  const isDark = theme === "dark";
+  const { theme } = useTheme();
+
     // console.log(theme);
 
   return (
